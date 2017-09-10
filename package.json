@@ -1,0 +1,29 @@
+{
+  "name": "docker-node-jenkins",
+  "version": "0.0.1",
+  "description": "Terraform AWS GCP Kubernetes Docker Mongo Express Node Jenkins Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R list'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmashaw/docker-node-jenkins.git"
+  },
+  "author": "Mark S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmashaw/docker-node-jenkins/issues"
+  },
+  "homepage": "https://github.com/hmashaw/docker-node-jenkins#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.1",
+    "supertest": "^3.0.0"
+  }
+}
+
