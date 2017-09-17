@@ -10,7 +10,7 @@ module.exports = {
      * @param {object} res The outgoing response
      */
     greeting(req, res) {
-        res.send({ hello: 'world!' })
+        res.send({ message: 'Hello World!' })
     }
     
 }

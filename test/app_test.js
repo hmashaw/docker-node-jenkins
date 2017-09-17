@@ -13,7 +13,7 @@ describe('hvagGeneriCRUD Express App', () => {
         request(app)
             .get('/api')
             .end((err, response) => {
-                assert(response.body.hello === 'world!')
+                assert(response.body.message === 'Hello World!')
                 done()
             })
     })
